@@ -1,4 +1,7 @@
-// Problem Link: https://lightoj.com/problem/back-to-underworld
+/*
+    Problem Link: https://lightoj.com/problem/back-to-underworld
+    Problem Type: Graph Traversal, Graph Coloring
+*/
 
 #include <bits/stdc++.h>
 #define INF 1e9
