@@ -1,7 +1,6 @@
 /* Problem Link: https://lightoj.com/problem/lift */
 // Problem Type: Adhoc
 
-
 #include <bits/stdc++.h>
 #define INF 1e18
 #define EPS 1e-9
@@ -21,12 +20,9 @@
 typedef long long ll;
 using namespace std;
 
-void solve() {	
-	int pos, lift;
-	int ans = 16;
-	cin >> pos >> lift;
-	ans += abs(pos - lift) * 4 + pos * 4; 
-	cout << ans + 3 << endl;
+void solve() {  
+    int pos, lift; cin >> pos >> lift;
+    cout << (abs(pos - lift) + pos) * 4 + 19 << endl;
 }   
 
 int main() {
@@ -35,7 +31,7 @@ int main() {
 
     int t, i = 1; cin >> t;
     while(t--) {
-    	cout << "Case " << i << ": ";
+        cout << "Case " << i << ": ";
         solve();
         ++i;
     }
